@@ -4,25 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  DSA,
+  Cpp,
+  Java,
+  MySQL,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  TagNPin,
+  Celebal,
+  Hacktech,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Database Engineer",
     icon: creator,
   },
 ];
@@ -73,20 +72,20 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "DSA",
+    icon: DSA,
+  },
+  {
+    name: "C++",
+    icon: Cpp,
+  },
+  {
+    name: "Java",
+    icon: Java,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -97,9 +96,10 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: MySQL,
   },
+
   {
     name: "git",
     icon: git,
@@ -108,64 +108,76 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
-
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Development Intern",
+    company_name: "TagPin Web Solutions LLP",
+    icon: TagNPin,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Displayed statistical data on a dynamic dashboard using PHP, HTML, CSS, and JavaScript.",
+      "Designed UI components and implemented backend logic to support data visualization.",
+      "Contributed to responsive design and performance enhancements for client applications.",
+      "Collaborated in Agile workflow and participated in regular code reviews.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "SQL Intern",
+    company_name: "Celebal Technologies",
+    icon: Celebal,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2025 - June 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on SQL-based data extraction, filtering, and visualization tasks.",
+      "Assisted in managing large datasets and reporting solutions.",
+      "Improved query performance and optimized database operations.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Co-President",
+    company_name: "HackTech Club, Chandigarh University",
+    icon: Hacktech,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Organized and led technical workshops, coding competitions, and hackathons.",
+      "Mentored junior developers and supported open-source initiatives.",
+      "Represented the university in inter-college tech events.",
     ],
   },
+];
+import { FaCertificate } from "react-icons/fa";
+
+export const certifications = [
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    name: "React Native by Meta",
+    link: "https://www.coursera.org/account/accomplishments/verify/8PJIOLBDUKS6",
+  },
+  {
+    name: "Internet of Things – Univ. of Colorado Boulder",
+    link: "https://drive.google.com/file/d/10Uz5872WnNNQxrR6NBCM0WTyAXS0zz4s/view?usp=sharing",
+  },
+  {
+    name: "Cloud Computing – NPTEL (IIT Kharagpur)",
+    link: "https://drive.google.com/file/d/10OpiZH7OzYL9sDTBujOuzkAxlZVWKxef/view?usp=sharing",
+  },
+  {
+    name: "Intro to Databases – Meta",
+    link: "https://drive.google.com/file/d/11_jzIQa8gHiqlZr8Dlogh9xaSNVZJmkV/view?usp=sharing",
+  },
+  {
+    name: "Database & SQL for Data Science – IBM",
+    link: "https://drive.google.com/file/d/1pfiWufjngFVFzHzsHWquKp1nsVZbCqLZ/view?usp=sharing",
+  },
+  {
+    name: "Multi-Core Computer Architecture – IIT Guwahati",
+    link: "https://drive.google.com/file/d/10Ws6gg6wL-Wy_mHLZeLuiL4gIG3vTKZN/view?usp=sharing",
+  },
+  {
+    name: "Computer Networks and 5G Fundamentals",
+    link: "https://drive.google.com/file/d/1cbSmg2u3MHEqCjDlxy8lKPogzzFvFguT/view?usp=drive_link",
   },
 ];
 

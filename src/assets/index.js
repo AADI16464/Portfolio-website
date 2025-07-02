@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,24 +8,21 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import DSA from "./tech/DSA.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
+import Cpp from "./tech/Cpp.png";
+import Java from "./tech/Java.png";
+import MySQL from "./tech/MySQL.png";
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import Celebal from "./company/Celebal.webp";
+import Hacktech from "./company/Hacktech.png";
+import TagNPin from "./company/TagNPin.png";
+import figma from "./tech/figma.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -40,7 +37,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -48,14 +44,14 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  Cpp,
+  Java,
+  MySQL,
+  DSA,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  Celebal,
+  Hacktech,
+  TagNPin,
   carrent,
   jobit,
   tripguide,
