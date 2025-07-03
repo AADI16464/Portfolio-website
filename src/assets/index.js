@@ -33,7 +33,7 @@ import COA from "./Certificate/COA.png";
 import Intern1 from "./Certificate/TagNPin.png";
 import Intern2 from "./Certificate/Celebal.png";
 import database from "./Certificate/Database2.png";
-import blockchain from "./Certificate/Blockchain1.png";
+import blockchain from "./Certificate/BlockChain1.png";
 import IoT from "./Certificate/IoT.png";
 import webdev from "./Certificate/React.png";  
 import network from "./Certificate/5G.png";
