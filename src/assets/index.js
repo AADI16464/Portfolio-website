@@ -12,6 +12,7 @@ import EVerify from "./EVerify.png";
 import Dash from "./Dash.png";
 import solar from "./SolarSystem.png";
 import hero from "./herobg.png";
+import imageedit from "./ImageEdit.png";
 
 import css from "./tech/css.png";
 import DSA from "./tech/DSA.png";
@@ -46,6 +47,7 @@ export
   EVerify,
   Dash,
   solar,
+  imageedit,
   mobile,
   hero,
   satyam,

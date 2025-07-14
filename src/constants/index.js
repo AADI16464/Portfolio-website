@@ -24,6 +24,7 @@ import {
   EVerify,
   Dash,
   solar,
+  imageedit,
   COA,
   Intern1,
   Intern2,
@@ -453,6 +454,27 @@ const projects = [
     ],
     image: EVerify,
     source_code_link: "https://github.com/AADI16464/Email-Verification",
+  },
+  {
+    name: "Image Editor ",
+    description:
+      "A web application that allows users to upload images, automatically remove backgrounds, and customize with new backgrounds or solid colors. Additional features include image compression, format conversion (JPG, PNG), and basic editing capabilities.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imageedit,
+    source_code_link: "https://github.com/AADI16464/Image-Editor-Background-Remover/tree/main",
   },
 ];
 
