@@ -19,6 +19,10 @@
     "react-icons": "^5.5.0",
     "react-parallax-tilt": "^1.7.299",
     "react-router-dom": "^6.8.1",
+<<<<<<< HEAD
+=======
+    "react-simple-typewriter": "^5.0.1",
+>>>>>>> f762950 (Updated Hero section with background and typewriter effect)
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0"
   },

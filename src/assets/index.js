@@ -8,6 +8,10 @@ import Drive from "./Drive.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import satyam from "./Satyam.jpg";
+import EVerify from "./EVerify.png";
+import Dash from "./Dash.png";
+import solar from "./SolarSystem.png";
+import hero from "./herobg.png";
 
 import css from "./tech/css.png";
 import DSA from "./tech/DSA.png";
@@ -25,9 +29,6 @@ import Celebal from "./company/Celebal.webp";
 import Hacktech from "./company/Hacktech.png";
 import TagNPin from "./company/TagNPin.png";
 import figma from "./tech/figma.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import cloud from "./Certificate/Cloud Computing.png";
 import COA from "./Certificate/COA.png";
 import Intern1 from "./Certificate/TagNPin.png";
@@ -42,7 +43,11 @@ export
   logo,
   backend,
   creator,
+  EVerify,
+  Dash,
+  solar,
   mobile,
+  hero,
   satyam,
   web,
   github,
@@ -65,9 +70,6 @@ export
   Celebal,
   Hacktech,
   TagNPin,
-  carrent,
-  jobit,
-  tripguide,
   cloud,
   COA,
   Intern1,

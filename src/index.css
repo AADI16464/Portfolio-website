@@ -220,5 +220,31 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+<<<<<<< HEAD
+=======
+/* Typewriter cursor animation */
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 3px;
+  color: #ffffff;
+  font-weight: 600;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  49% { opacity: 1; }
+  50% { opacity: 0; }
+  99% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Optional: style the typewriter wrapper */
+.typewriter-wrapper {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+>>>>>>> f762950 (Updated Hero section with background and typewriter effect)
 
 

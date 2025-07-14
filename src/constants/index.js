@@ -20,9 +20,15 @@ import {
   TagNPin,
   Celebal,
   Hacktech,
+<<<<<<< HEAD
   carrent,
   jobit,
   tripguide,
+=======
+  EVerify,
+  Dash,
+  solar,
+>>>>>>> f762950 (Updated Hero section with background and typewriter effect)
   cloud,
   COA,
   Intern1,
@@ -392,6 +398,7 @@ const testimonials = [
 
 const projects = [
   {
+<<<<<<< HEAD
     name: "Car Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -453,6 +460,69 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+=======
+    name: "CRM Campaign Manager",
+    description:
+      "A CRM web application designed to manage marketing campaigns by segmenting users, suggesting AI-powered messages, and simulating campaign delivery. Built with a modern stack including Google OAuth, OpenAI API, Redis, and a custom backend.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Dash,
+    source_code_link: "https://github.com/AADI16464/crm-campaign-ai",
+  },
+  {
+    name: "Solar System Simulation",
+    description:
+      "A beautiful and modern 3D solar system simulation with enhanced graphics, improved lighting, and smooth camera controls.",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MinGW",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: solar,
+    source_code_link: "https://github.com/AADI16464/Solarsystem",
+  },
+  {
+    name: "Email Verification System",
+    description:
+      "A PHP-based XKCD comic subscription system that allows users to register with email verification, receive daily XKCD comics via a CRON job, and unsubscribe through a secure verification workflow. All user data is managed using simple text files without a database.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: EVerify,
+    source_code_link: "https://github.com/AADI16464/Email-Verification",
+>>>>>>> f762950 (Updated Hero section with background and typewriter effect)
   },
 ];
 
