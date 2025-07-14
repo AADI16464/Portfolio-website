@@ -20,16 +20,10 @@ import {
   TagNPin,
   Celebal,
   Hacktech,
-<<<<<<< HEAD
-  carrent,
-  jobit,
-  tripguide,
-=======
+  cloud,
   EVerify,
   Dash,
   solar,
->>>>>>> f762950 (Updated Hero section with background and typewriter effect)
-  cloud,
   COA,
   Intern1,
   Intern2,
@@ -397,70 +391,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-<<<<<<< HEAD
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-=======
+ {
     name: "CRM Campaign Manager",
     description:
       "A CRM web application designed to manage marketing campaigns by segmenting users, suggesting AI-powered messages, and simulating campaign delivery. Built with a modern stack including Google OAuth, OpenAI API, Redis, and a custom backend.",
@@ -522,7 +453,6 @@ const projects = [
     ],
     image: EVerify,
     source_code_link: "https://github.com/AADI16464/Email-Verification",
->>>>>>> f762950 (Updated Hero section with background and typewriter effect)
   },
 ];
 
